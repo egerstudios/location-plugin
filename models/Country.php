@@ -25,6 +25,12 @@ class Country extends Model
 {
     use \System\Traits\KeyCodeModel;
     use \October\Rain\Database\Traits\Validation;
+    
+    public $implement = [
+        \RainLab\Translate\Behaviors\TranslatableModel::class
+    ];
+
+    public $translatable = ['name'];
 
     /**
      * @var string table associated with the model
