@@ -57,3 +57,9 @@ v2.0.0:
     - migrate_from_version1.php
 v2.0.1: Fixes compatibility with October v4
 v2.0.2: Include Slovenia states
+v2.0.3:
+    - Add support for Norwegian municipalities and zip
+    - 000003_create_municipalities.php
+    - 000004_create_postal_codes.php
+    - seed_no_municipalities.php
+    - seed_no_postal_codes.php
